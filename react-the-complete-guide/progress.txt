@@ -1,0 +1,2 @@
+Section 1: Getting Started >>> Done
+Section 2: Refreshing Next Generation JavaScript >>> Pending
