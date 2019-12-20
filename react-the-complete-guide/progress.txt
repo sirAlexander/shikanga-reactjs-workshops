@@ -1,2 +1,3 @@
 Section 1: Getting Started >>> Done
-Section 2: Refreshing Next Generation JavaScript >>> Pending
+Section 2: Refreshing Next Generation JavaScript >>> Done
+Section 3: Understanding The Base Features & Syntax >>> Pending
