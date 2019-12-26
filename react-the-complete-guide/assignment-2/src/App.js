@@ -10,14 +10,15 @@ class App extends Component {
   }
 
   inputTextChangedHandler = (event) => {
-    this.setState({inputText: event.target.value});
+    this.setState({ inputText: event.target.value });
   }
 
   deleteCharacterHandler = (characterIndex) => {
     const inputCharacters = [...this.state.inputText];
     inputCharacters.splice(characterIndex, 1);
+    const updatedText = inputCharacters.join('');
 
-    this.setState({inputText: inputCharacters.join('')});
+    this.setState({ inputText: updatedText });
   }
 
 
