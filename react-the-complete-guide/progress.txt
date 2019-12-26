@@ -1,4 +1,5 @@
 Section 1: Getting Started >>> Done (40min)
 Section 2: Refreshing Next Generation JavaScript >>> Done (45min)
 Section 3: Understanding The Base Features & Syntax >>> Done (2hr 22min)
-Section 4: Working With Lists And Conditionals >>> In Progress (1hr 1min) >>> Assignment 2
+Section 4: Working With Lists And Conditionals >>> Done (1hr 1min)
+Section 5: Styling React Components & Elements >>> Pending (1hr 5min)
