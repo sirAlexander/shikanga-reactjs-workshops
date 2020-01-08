@@ -2,7 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "react-the-complete-guide"
 		}
-	],
-	"settings": {}
+	]
 }
