@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "react-the-complete-guide"
+		},
+		{
+			"path": "netflix-clone"
 		}
 	]
 }
