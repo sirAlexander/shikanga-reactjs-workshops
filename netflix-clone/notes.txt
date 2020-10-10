@@ -4,3 +4,10 @@ https://www.youtube.com/watch?v=x_EEwGe-a9o&t=1527s&ab_channel=KarlHadwen
 
 How to check what's running on what port?
 `lsof -i :3000`
+
+=== Installing ESLint, Prettier ===
+Use: 
+`exec 3<&1;bash <&3 <(curl https://raw.githubusercontent.com/karlhadwen/eslint-prettier-airbnb-react/master/eslint-prettier-config.sh 2> /dev/null)`
+
+
+progress >>> 00:58:55 - Installing ESLint, Prettier 
