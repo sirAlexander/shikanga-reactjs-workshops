@@ -1,3 +1,6 @@
 Karl Hadwen
 https://www.youtube.com/watch?v=x_EEwGe-a9o&t=1527s&ab_channel=KarlHadwen
 
+
+How to check what's running on what port?
+`lsof -i :3000`
