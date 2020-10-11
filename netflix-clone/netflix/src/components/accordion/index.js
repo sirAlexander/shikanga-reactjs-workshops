@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState } from "react";
 import {
   Container,
+  Frame,
   Inner,
   Title,
   Item,
@@ -17,6 +18,10 @@ export default function Accordion({ children, ...restProps }) {
     </Container>
   );
 }
+
+Accordion.Frame = function AccordionFrame({ children, ...restProps }) {
+  return <Frame {...restProps}>{children}</Frame>;
+};
 
 Accordion.Title = function AccordionTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>;
