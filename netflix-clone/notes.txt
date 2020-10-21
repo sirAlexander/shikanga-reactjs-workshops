@@ -16,4 +16,6 @@ If you want to check the state of something without using the console, use:
 
 `<pre>{JSON.stringify(toggleShow, null, 2)}</pre>`
 
-progress >>> 02:20:22 - Constants - routes
+progress >>> 03:10:16 - Firebase connection
+
+here is OptForm duplicated code, can we have it as a container to keep things DRY?
