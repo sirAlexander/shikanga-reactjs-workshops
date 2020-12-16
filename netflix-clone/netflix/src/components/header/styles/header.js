@@ -14,8 +14,6 @@ export const Background = styled.div`
   }
 `;
 
-export const Frame = styled.div``;
-
 export const Container = styled.div`
   display: flex;
   margin: 0 56px;
@@ -31,6 +29,27 @@ export const Container = styled.div`
   @media (max-width: 1000px) {
     margin: 0 30px;
   }
+`;
+
+export const Link = styled.p`
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: ${({ active }) => (active === "true" ? "700" : "normal")};
+  cursor: pointer;
+
+  &:hover {
+    font-weight: bold;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+`;
+
+export const Group = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 export const ButtonLink = styled(ReactRouterLink)`
@@ -50,6 +69,33 @@ export const ButtonLink = styled(ReactRouterLink)`
   &:hover {
     background-color: #f40612;
   }
+`;
+
+export const Feature = styled(Container)`
+  padding: 150px 0 500px 0;
+  flex-direction: column;
+  align-items: normal;
+  width: 50%;
+
+  @media (max-width: 1100px) {
+    display: none;
+  }
+`;
+
+export const FeatureCallOut = styled.h2`
+  color: white;
+  font-size: 50px;
+  line-height: normal;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  margin: 0;
+`;
+
+export const Text = styled.p`
+  color: white;
+  font-size: 22px;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 `;
 
 export const Logo = styled.img`
