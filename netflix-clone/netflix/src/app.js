@@ -5,7 +5,7 @@ import { Home, Browse, Signin, Signup } from "./pages";
 import { IsUserRedirect, ProtectedRoute } from "./helpers/routes";
 import { useAuthListener } from "./hooks";
 
-export default function App() {
+export function App() {
   const { user } = useAuthListener();
 
   return (
