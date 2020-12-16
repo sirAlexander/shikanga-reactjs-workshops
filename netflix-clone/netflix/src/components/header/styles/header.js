@@ -71,6 +71,70 @@ export const ButtonLink = styled(ReactRouterLink)`
   }
 `;
 
+export const Picture = styled.button`
+  background: url(${({ src }) => src});
+  background-size: contain;
+  border: 0;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+`;
+
+export const Dropdown = styled.div`
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 10px;
+  width: 100px;
+  top: 32px;
+  right: 10px;
+
+  ${Group}:last-of-type ${Link} {
+    cursor: pointer;
+  }
+
+  ${Group} {
+    margin-bottom: 10px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    ${Link} {
+      cursor: pointer;
+    }
+
+    ${Picture} {
+      cursor: default;
+    }
+  }
+  button {
+    margin-right: 10px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+`;
+
+export const Profile = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  position: relative;
+
+  button {
+    cursor: pointer;
+  }
+
+  &:hover > ${Dropdown} {
+    display: flex;
+    flex-direction: column;
+  }
+`;
+
 export const Feature = styled(Container)`
   padding: 150px 0 500px 0;
   flex-direction: column;
